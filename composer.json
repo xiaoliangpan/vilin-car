@@ -1,0 +1,21 @@
+{
+    "name": "wulove52/vilin-car",
+    "description": "vilin-car test composer package",
+    "type": "metapackage",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "vilin",
+            "email": "243506597@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vilin\\":"src"
+        }
+    }
+}
